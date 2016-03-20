@@ -5,7 +5,6 @@
 *.suo
 *.filters
 *.tlog
-*.obj
 *.res
 *.rc
 *.log
