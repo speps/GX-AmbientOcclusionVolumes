@@ -351,7 +351,7 @@ Shader "Hidden/AOV"
 					// alpha blender.  Making the constant larger will start to abruptly truncate some occlusion.
 					// Making the constant smaller will increase precision; the test can be eliminated entirely without
 					// affecting correctness.
-					if ((pm[3] < epsilon) || (input.Area < pm[3] * 0.3f)) {
+					if (pm[3] < 0.0001f) {
 						discard;
 					}
 
@@ -378,7 +378,6 @@ Shader "Hidden/AOV"
 
 					return f;
 				}
-
 
 				/** Computes the form factor of polygon \a p[0..2] and a point at the origin with normal \a n.
 					The result is on the scale 0..1.  DISCARDs if the form factor is zero. */
