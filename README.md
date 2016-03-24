@@ -9,6 +9,6 @@ Implementation of ambient occlusion volumes in Unity 5.
 
 ## Result
 
-![Screenshot](https://raw.github.com/speps/GX-AmbientOcclusionVolumes/master/aov-screenshot01.png)
+![Screenshot](https://raw.github.com/speps/GX-AmbientOcclusionVolumes/master/aov-screenshot01.jpg)
 
 **NOTE** : it is slow!
